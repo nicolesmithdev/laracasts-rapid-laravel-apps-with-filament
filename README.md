@@ -9,3 +9,4 @@
 ### Section 2: Filament Forms
 
 1. *Introduction to Filament* - Install Filament package and build the resources to quickly scaffold an admin user interface
+2. *Basic Form Inputs* - Starts off by enabling hot reloading on Livewire and Filament changes
