@@ -17,3 +17,5 @@
     - Touched on creating Enums (fixed, distinct values): `app/Enums/Region.php`
     - Made the Conference region's select input _live_ so that when you select a region, the venue drop down then populates with only venues in that region
     - Converted the venue drop down into a _searchable_ combo box with `preload`, as well as creating new venue and editing existing venue capabilities
+4. **Checkbox Lists**
+    - Explore displaying a checkbox list in a form including formatting into 3 columns for better display, making it searchable, and selecting/deselecting all
