@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\Region;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -22,6 +23,7 @@ class Conference extends Model
             'id' => 'integer',
             'start_date' => 'datetime',
             'end_date' => 'datetime',
+            'region' => Region::class,
             'venue_id' => 'integer',
         ];
     }
